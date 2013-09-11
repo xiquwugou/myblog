@@ -1,0 +1,73 @@
+
+
+div.admonition {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+div.note {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("dialog-note.png") no-repeat scroll 10px 8px #E1ECFE;
+    border-color: #7A9EEC;
+    border-image: none;
+    border-style: solid none;
+    border-width: 2px;
+    padding: 10px 20px 10px 60px;
+}
+
+div.body {
+    background-color: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    color: #3E4349;
+    font-size: 1em;
+    overflow: auto;
+    padding: 0 30px 30px;
+}
+
+
+div.bodywrapper {
+    margin: 0 auto;
+    width: 1037px;
+}
+
+div.body p, div.body dd, div.body li {
+    line-height: 1.5em;
+}
+div.admonition p.admonition-title + p {
+    display: inline;
+}
+div.body p, div.body dd, div.body li {
+    line-height: 1.5em;
+}
+
+div.body p, div.body dd, div.body li {
+    line-height: 1.5em;
+}
+
+p.admonition-title:after {
+    content: ":";
+}
+div.body p, div.body dd, div.body li {
+    line-height: 1.5em;
+}
+p.admonition-title {
+    display: none;
+}
+p.admonition-title {
+    font-weight: bold;
+    margin: 0 10px 5px 0;
+}
+.first {
+    margin-top: 0 !important;
+}
+
+tt {
+    background-color: rgba(0, 0, 0, 0);
+    color: #222222;
+    font-family: monospace;
+    font-size: 1.1em;
+}
