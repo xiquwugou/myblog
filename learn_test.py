@@ -5,7 +5,7 @@ import unittest
 __author__ = 'song'
 
 
-def sum(x, y):
+def my_sum(x, y):
     return x + y
 
 
@@ -13,7 +13,7 @@ def sub(x, y):
     return x - y
 
 
-class my_test(unittest.TestCase):
+class MyTest(unittest.TestCase):
     ##初始化工作
     def setUp(self):
         pass
@@ -24,7 +24,7 @@ class my_test(unittest.TestCase):
 
     #具体的测试用例，一定要以test开头
     def test_sum(self):
-        self.assertEqual(sum(1, 2), 3, 'test sum fail')
+        self.assertEqual(my_sum(1, 2), 3, 'test sum fail')
 
     def test_sub(self):
         self.assertEqual(sub(2, 1), 1, 'test sub fail')
